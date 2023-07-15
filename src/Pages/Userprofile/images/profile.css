@@ -1,0 +1,438 @@
+body {
+    background-color: #e3dee0;
+}
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.container {
+    width: 75%;
+}
+
+.profile .container .profile-content .profile-header {
+    width: 100%;
+    background: #fff;
+    border-radius: 0.8rem;
+    height: 40vh;
+    position: relative;
+}
+
+.profile .container .profile-content .profile-header .profile-cover-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 25%;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    cursor: pointer;
+}
+
+.profile .container .profile-content .profile-header .prodile-cover-container .cover-icon {
+    position: absolute;
+    right: 3%;
+    top: 10%;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+.profile .container .profile-content .profile-header .prodile-cover-container .cover-icon:hover {
+    transform: scale(1.2);
+}
+
+.profile .container .profile-content .profile-header .profile-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    /* border-top-left-radius: 0.8rem; */
+    /* border-top-right-radius: 0.8rem; */
+}
+
+.profile .container .profile-content .profile-header .profile-cover img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.profile .container .profile-details {
+    padding-left: 1.6rem;
+    padding-right: 0.8rem;
+    background-color: white;
+}
+
+.profile .container .profile-details .personal-img-editIcon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile .container .profile-details .personal-img-editIcon .profile-image {
+    margin-top: -112px;
+    z-index: 4;
+    text-align: left !important;
+}
+
+.profile .container .profile-details .personal-img-editIcon .profile-image .image-container {
+    width: 160px;
+    height: 160px;
+    box-sizing: border-box;
+    border-radius: 49.9%;
+    border: 4px solid white;
+    box-shadow: none;
+    margin: auto;
+    position: relative;
+    background-clip: border-box;
+    background-color: white;
+}
+
+.profile .container .profile-details .personal-img-editIcon .profile-image .image-container .image-editor {
+    width: 100%;
+    height: 100%;
+    background-color: wheat;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.profile .container .profile-details .personal-img-editIcon .profile-image .image-container .image-editor .image-button-show {
+    line-height: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+.profile .container .profile-details .personal-img-editIcon .profile-image .image-container .image-editor .image-button-show img {
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+
+}
+
+.profile .container .profile-details .personal-img-editIcon .edit-Icon {
+    color: red;
+    ;
+    /* flex: 1 !important; */
+    padding: 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.profile .container .profile-details .personal-img-editIcon .edit-Icon:hover {
+    transform: scale(1.2);
+}
+
+.profile .container .profile-details .user-info {
+    margin-top: 0.8rem;
+    position: relative !important;
+    background-color: #fff;
+}
+
+.profile .container .profile-details .user-info .user-name {
+    max-width: calc(100% - 232px - 2.4rem);
+    line-height: 1rem;
+}
+
+.profile .container .profile-details .user-info .user-name .name h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.25;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    vertical-align: middle !important;
+    display: inline !important;
+}
+
+.profile .container .profile-details .user-info .user-name .title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+}
+
+.profile .container .profile-details .user-info .user-name .address {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+}
+
+.profile .container .profile-details .user-info .user-info-buttons {
+    display: flex;
+    padding-top: 1.2rem;
+    padding-bottom: 2.5rem;
+}
+
+.profile .container .profile-details .user-info .user-info-buttons .first-button,
+.second-button,
+.third-button {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-right: 0.8rem;
+    
+
+}
+
+.profile .container .profile-details .user-info .user-info-buttons .first-button button {
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+    min-width: 0;
+    cursor: pointer;
+    min-width: 6.4rem;
+    max-width: 480px;
+    font-size: 1.6rem;
+    min-height: 3rem;
+    border: none;
+    padding: 0.4rem 0.7rem;
+    line-height: 2rem;
+    background-color: #018ABE;
+    color: white;
+    /* border-radius: 1.6rem; */
+    border: 1px solid #018ABE;
+    transition: all .6s;
+    
+}
+.profile .container .profile-details .user-info .user-info-buttons .first-button button:hover{
+    border: 1px solid #F89334;
+    color:  #F89334;
+    cursor: pointer;
+    background-color: rgb(255, 249, 238);
+}
+.profile .container .profile-details .user-info .user-info-buttons .second-button button{
+    /* border-radius: 1.6rem; */
+    font-size: 1.6rem;
+    min-height: 3rem;
+    padding: 0.4rem 0.7rem;
+    font-family: inherit;
+    font-weight: 400;
+    border: 1px solid #F89334;
+    color:  #ffffff;
+    cursor: pointer;
+    background-color: #F89334;
+    transition: all .6S;
+}
+.profile .container .profile-details .user-info .user-info-buttons .second-button button:HOVER{
+
+    transition: all .6S;
+    transform: scale(0.9);
+}
+/* User Trips */
+
+.user-trips{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+
+}
+.user-trips .trips-nav{
+    background-color: white;
+}
+.user-trips .trips-nav .trips-nav-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.user-trips .trips-nav .trips-nav-buttons .previous-trips{
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-right: 0.8rem;
+}
+.user-trips .trips-nav .trips-nav-buttons .previous-trips button ,
+.requests-trips button ,
+.favourite-trips button{
+    border-radius: 1.6rem;
+    font-size: 1.6rem;
+    min-height: 3rem;
+    padding: 0.4rem 0.7rem;
+    font-family: inherit;
+    font-weight: 400;
+   border: none;
+    color:  #a0a5aa;
+    cursor: pointer;
+    transition: all .6s;
+}
+.user-trips .trips-nav .trips-nav-buttons .previous-trips button:hover ,
+.requests-trips button:hover ,
+.favourite-trips button:hover{
+    color:  #018ABE;
+}
+
+/* User trips cards */
+.user-trips .container .user-trips-cards {
+    background-color: white;
+}
+
+.user-trips .container .user-trips-cards .cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+    /* padding-left: 80px; */
+    padding-top: 30px;
+}
+.user-trips .container .user-trips-cards .cards .card{
+    width: 40%;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+    position: relative;
+}
+.user-trips .container .user-trips-cards .cards .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transform: scale(1.05);
+}
+.user-trips .container .user-trips-cards .cards .card img{
+    width: 100%;
+    height: 300px;
+}
+.user-trips .container .user-trips-cards .cards .card .header-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.user-trips .container .user-trips-cards .cards .card .header-text h4{
+    color: #44494d;
+    font-size: 20px;
+}
+.user-trips .container .user-trips-cards .cards .card .header-text h5{
+    color: #44494d;
+    font-size: 16px;
+}
+.user-trips .container .user-trips-cards .cards .card .card-text{
+    display: flex;
+    padding: 7px 15px;
+    align-items: center;
+}
+.user-trips .container .user-trips-cards .cards .card .card-text h5{
+    color: #7f8285;
+    font-size: 16px;
+    margin-right: 12px;
+    width: 130px;
+}
+.user-trips .container .user-trips-cards .cards .card i{
+    position: absolute;
+    right: 20px;
+    bottom: 8px;
+
+}
+/* Footer */
+
+
+
+.footer-container{
+	max-width: 1170px;
+    margin: 0 auto;
+}
+.footer-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #114B5F;
+    padding: 70px 0;
+	/* position: absolute;
+	top: 0; */
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col .footer-title{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col .footer-title::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #F89334;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #F89334;
+	padding-left: 8px;
+}
+.footer-col .footer-social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .footer-social-links a:hover{
+	color: #24262b;
+	background-color: #F89334;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

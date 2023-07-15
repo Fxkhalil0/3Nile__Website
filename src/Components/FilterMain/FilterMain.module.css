@@ -1,0 +1,8 @@
+.main__content{
+    display: flex;
+    padding-top: 60px;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}

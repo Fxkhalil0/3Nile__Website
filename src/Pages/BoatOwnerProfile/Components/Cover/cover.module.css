@@ -1,0 +1,519 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.container {
+    width: 75%;
+}
+
+.profile .container .profile-content .profile-header {
+    width: 100%;
+    background: #fff;
+    border-radius: 0.8rem;
+    height: 40vh;
+    position: relative;
+}
+
+.profile .container .profile-content .profile-header .profile-cover-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 25%;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    cursor: pointer;
+}
+
+.profile .container .profile-content .profile-header .prodile-cover-container .cover-icon {
+    position: absolute;
+    right: 3%;
+    top: 10%;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+.profile .container .profile-content .profile-header .prodile-cover-container .cover-icon:hover {
+    transform: scale(1.2);
+}
+
+.profile .container .profile-content .profile-header .profile-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    /* border-top-left-radius: 0.8rem; */
+    /* border-top-right-radius: 0.8rem; */
+}
+
+.profile .container .profile-content .profile-header .profile-cover img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.profile .container .profile-details {
+    padding-left: 1.6rem;
+    padding-right: 0.8rem;
+    background-color: white;
+}
+
+.profile .container .profile-details .personal-img-editIcon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile .container .profile-details .personal-img-editIcon .profile-image {
+    margin-top: -112px;
+
+    text-align: left !important;
+}
+
+.profile .container .profile-details .personal-img-editIcon .profile-image .image-container {
+    width: 160px;
+    height: 160px;
+    box-sizing: border-box;
+    border-radius: 49.9%;
+    border: 4px solid white;
+    box-shadow: none;
+    margin: auto;
+    position: relative;
+    background-clip: border-box;
+    background-color: white;
+}
+
+.profile .container .profile-details .personal-img-editIcon .profile-image .image-container .image-editor {
+    width: 100%;
+    height: 100%;
+    background-color: wheat;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.profile .container .profile-details .personal-img-editIcon .profile-image .image-container .image-editor .image-button-show {
+    line-height: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+.profile .container .profile-details .personal-img-editIcon .profile-image .image-container .image-editor .image-button-show img {
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+
+}
+
+.profile .container .profile-details .personal-img-editIcon .edit-Icon {
+    color: red;
+    ;
+    /* flex: 1 !important; */
+    padding: 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.profile .container .profile-details .personal-img-editIcon .edit-Icon:hover {
+    transform: scale(1.2);
+}
+
+.profile .container .profile-details .user-info {
+    margin-top: 0.8rem;
+    position: relative !important;
+    background-color: #fff;
+}
+
+.profile .container .profile-details .user-info .user-name {
+    max-width: calc(100% - 232px - 2.4rem);
+    line-height: 1rem;
+}
+
+.profile .container .profile-details .user-info .user-name .name h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.25;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    vertical-align: middle !important;
+    display: inline !important;
+}
+
+.profile .container .profile-details .user-info .user-name .title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+}
+
+.profile .container .profile-details .user-info .user-name .address {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+}
+
+.profile .container .profile-details .user-info .user-info-buttons {
+    display: flex;
+    padding-top: 1.2rem;
+    padding-bottom: 2.5rem;
+}
+
+.profile .container .profile-details .user-info .user-info-buttons .first-button,
+.second-button,
+.third-button {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-right: 0.8rem;
+
+
+}
+
+.profile .container .profile-details .user-info .user-info-buttons .first-button button {
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+    min-width: 0;
+    cursor: pointer;
+    min-width: 6.4rem;
+    max-width: 480px;
+    font-size: 1.6rem;
+    min-height: 3rem;
+    border: none;
+    padding: 0.4rem 0.7rem;
+    line-height: 2rem;
+    background-color: #ffffff;
+    color: #05468b;
+    /* border-radius: 1.6rem; */
+    border: 1px solid #05468b;
+    transition: all .6s;
+
+}
+
+.profile .container .profile-details .user-info .user-info-buttons .first-button button:hover {
+    border: 1px solid #05468b;
+    color: #05468b;
+    cursor: pointer;
+    background-color: rgb(255, 249, 238);
+}
+
+.profile .container .profile-details .user-info .user-info-buttons .second-button button {
+    /* border-radius: 1.6rem; */
+    font-size: 1.6rem;
+    min-height: 3rem;
+    padding: 0.4rem 0.7rem;
+    font-family: inherit;
+    font-weight: 400;
+    border: 1px solid #05468b;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #05468b;
+    transition: all .6S;
+}
+
+.profile .container .profile-details .user-info .user-info-buttons .second-button button:HOVER {
+
+    transition: all .6S;
+    transform: scale(0.9);
+}
+
+
+
+/* Modal */
+/* ////////////// */
+
+.form_input{
+    /* padding-bottom: 20px; */
+    padding-left: 50px;
+}
+.form_input2{
+    padding-left: 110px;
+    top: 93px;
+    position: absolute;
+}
+.form_btn_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(221, 221, 221); */
+    padding:18px 20px;
+    /* margin: 0 40px; */
+    margin-top: 80px;
+
+}
+.inputModal {
+    width: 580px !important;
+  height: 45px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+      display: block;
+      margin-top: 25px;
+
+}
+.inputModal:focus{
+   border:3px solid#05468b;
+   outline: none;
+      
+
+}
+.labelModal{
+    padding-bottom: 15px;
+    font-size: 1.40em;
+    color:#05468b;
+    padding-right: 30px;
+    font-size: 25px;
+margin-top: 20px;
+}
+.titleModal {
+    font-size: 25px;
+    /* font-weight: bold; */
+        
+    color:#05468b;
+    padding: 10px 40px;
+    border-bottom: 2px solid#05468b;
+
+}
+.discModal {
+    height: 40px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_btn{
+    transition: all .6s;
+    padding: 13px 25px;
+    font-size: 22px;
+    cursor: pointer;
+    background-color:#05468b;
+    color: #FDFEFC;
+    border: none;
+    outline: none;
+    margin: 0 30px;
+}
+.form_btn:hover{
+    transition: all .6s;
+
+    background-color: #ffffff;
+    color: #05468b;
+    border:1px solid #05468b;
+ 
+}
+
+
+/* /////////// */
+.content1 {
+    top: 60%;
+    left: 50%;
+    width: 30%;
+    /* height: 77vh; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 1px 1px 8px#05468b;
+overflow-x: hidden;}
+.content {
+    top: 60%;
+    left: 50%;
+    width: 40%;
+    /* height: 77vh; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 1px 1px 8px#05468b;
+overflow-x: hidden;}
+.content2 {
+    /* top: 20%; */
+    left: 50%;
+    width: 40%;
+    height: 80vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 1px 1px 8px#05468b;
+overflow-x: hidden;}
+.discModal {
+    height: 70px;
+}
+
+.closeModal {
+    position: absolute;
+    right: 3%;
+    top: 10px;
+    height: 2em !important;
+    color:#05468b;
+}
+
+
+
+
+.forms{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.forms .uploads{
+    width: 50%;
+    order: 1;
+}
+.form-group.multi-preview{
+    width:"100%";
+    display:'flex';
+}
+.boat__images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.boat__images .boat__image{
+    width: 30%;
+}
+.boat__images .boat__image img{
+    width: 100%;
+}
+.cover_uploads{
+    display: flex;
+    /* width: 47%; */
+}
+
+small{
+    display: block;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.error-modal{
+    display: flex !important;
+    width: 551px !important;
+    justify-content: center !important;
+    align-items: center;
+    position: absolute;
+    right: 39%;
+    height: 30px;
+    background-color: #fff !important ;
+    border-radius: 30px !important;
+    z-index: 200 !important;
+    color: #ad2311!important;
+  }
+  .error{
+    text-align: center;
+    width: 50%;
+    color: #ad2311!important;
+    font-size: 20px;
+    background-color: #f7f7f7;
+  } 
+  .succussfull-modal{
+    display: flex !important;
+    width: 551px !important;
+    justify-content: center !important;
+    align-items: center;
+    position: absolute;
+    right: 39%;
+    height: 30px;
+    background-color: #fff !important ;
+    border-radius: 30px !important;
+    z-index: 200 !important;
+    color: #13562e !important;
+  }
+   .succussfull_massage{
+    font-size: 25px;
+    margin-top: 10px !important;
+   }
+  
+  .succussfull{
+   text-align: center;
+   width: 50%;
+   color: #0c540c!important;
+   font-size: 20px;
+   background-color: #f7f7f7;
+  } 
+  .succussfull_img{
+    width: 90px ;
+    height: 90px;
+    margin-top: 20px;
+  }
+
+  /* Target the file input element */
+input[type="file"] {
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    right: -4px;
+    top: 10px;
+  }
+  
+  /* Style the button container */
+  label input[type="file"]::file-selector-button {
+    width: 136px;
+    color: transparent;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Faked label styles and icon */
+  label input[type="file"]::before {
+    position: absolute;
+    pointer-events: none;
+    top: 10px;
+    left: 16px;
+    height: 20px;
+    width: 20px;
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230964B0'%3E%3Cpath d='M18 15v3H6v-3H4v3c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-3h-2zM7 9l1.41 1.41L11 7.83V16h2V7.83l2.59 2.58L17 9l-5-5-5 5z'/%3E%3C/svg%3E");
+  }
+  
+  label input[type="file"]::after {
+    position: absolute;
+    pointer-events: none;
+    top: 11px;
+    left: 40px;
+    color: #0964b0;
+    content: "Upload File";
+  }
+  
+  /* Style the file upload button */
+  label input[type="file"]::-webkit-file-upload-button {
+    display: none;
+  }
+  
+  label input[type="file"]::file-selector-button {
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+  }
+  
+  /* Style the file upload button hover state */
+  label input[type="file"]::file-selector-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  /* Style the file upload button active state */
+  label input[type="file"]::file-selector-button:active {
+    background-color: #e5e7eb;
+  }

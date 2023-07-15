@@ -1,0 +1,12 @@
+.main__content .cards{
+    width: 75%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    /* margin-top: 142px; */
+    /* margin-left: 425px; */
+    /* width: 75%; */
+}

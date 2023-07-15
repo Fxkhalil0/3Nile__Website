@@ -1,0 +1,31 @@
+.react-slideshow-fadezoom-images-wrap{
+    height: 100vh !important;
+    top: 200px;
+}
+.react-slideshow-container+ul.indicators{
+    position: absolute;
+    top: 600px;
+    left: 20px;
+}
+.react-slideshow-container+ul.indicators li {
+    width: 185px !important;
+    position: relative;
+}
+.react-slideshow-container+ul.indicators .each-slideshow-indicator:before {
+    width: 20px !important;
+    height: 20px !important;
+    background: #114B5F !important;
+}
+.react-slideshow-container+ul.indicators .each-slideshow-indicator{
+    position: relative;
+    top: 100px;
+}
+.each-slideshow-indicator:nth-child(1)::after{
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 2px;
+    right: -170px;
+    background-color: #114B5F;
+    top: 10px;
+}

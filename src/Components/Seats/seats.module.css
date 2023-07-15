@@ -1,0 +1,50 @@
+.container {
+  flex: 1;
+  /* padding: 60px; */
+  position: absolute;
+  left: 210px;
+  /* z-index: 15; */
+  top: 605px;
+}
+
+.seatContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(100% - 530px);
+  flex-direction: row;
+  position: absolute;
+  left: 58%;
+  z-index: 5000;
+  top: 103px;
+
+
+}
+
+.seatRow {
+  /* display: flex; */
+width: 20px;
+  flex-basis: 100%;
+  /* margin-bottom: 40px; */
+  margin-left: -73px;
+}
+
+.seatItem {
+  aspect-ratio: 2;
+border: 3px solid black;
+margin: 5px;
+  /* width: 55px; */
+  /* background-color: #bccdc9; */
+}
+
+.seatreserved {
+  background-color: #5ca9f6;
+  z-index: 5000;
+padding: 1px;
+}
+.seat{
+  background-color: rgb(167, 172, 167);
+padding: 1px;
+
+}
+

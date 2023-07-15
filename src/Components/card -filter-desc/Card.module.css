@@ -1,0 +1,256 @@
+.card-list {
+  width: 28%;
+    padding:20px;
+   
+  }
+  
+  .card {
+	background-color: #FFF;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	position: relative;
+	transition: 0.15s ease-in;
+  }
+
+
+  .card:hover, .card:focus-within {
+	box-shadow: 0 0 0 2px #000000, 0 10px 60px 0 rgba(0, 0, 0, 0.1);
+	transform: translatey(-5px);
+  }
+  
+  .card-image img{
+ width: 100%;
+ height: 380px;
+ padding: 5px;
+  }
+  
+  .card-header {
+	margin-top: 1.5rem;
+	display: flex;
+    flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .card-header h4{
+	font-weight: 600;
+	font-size:20px;
+	line-height: 1.25;
+	padding-right: 1rem;
+	will-change: transform;
+    color: black;
+  }
+  .card-header h5{
+color: #8b8b8b;
+font-size:20px;
+font-weight: 600;
+line-height: 1.25;
+  }
+  .card-text{
+	display: flex;
+    flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  .card-text h4{
+    font-weight: 600;
+	font-size:20px;
+	line-height: 1.25;
+padding-bottom: 10px;
+	will-change: transform;
+    color: black;
+  }
+  .card-text h5{
+    color: #8b8b8b;
+font-size:20px;
+font-weight: 600;
+line-height: 1.25;
+  }
+  .card-header a:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+  }
+  
+  .icon-button {
+	border: 0;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	font-size: 1.25rem;
+	transition: 0.25s ease;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+
+	cursor: pointer;
+	color: #565656;
+  }
+  .icon-button svg {
+	width: 1em;
+	height: 1em;
+  }
+  .icon-button:hover, .icon-button:focus {
+	background-color: #EC4646;
+	color: #FFF;
+  }
+  
+  .card-footer {
+	margin-top: 1.25rem;
+	border-top: 1px solid #ddd;
+	padding-top: 1.25rem;
+
+  }
+/* .modal{
+	background-color: white;
+} */
+/* Modal */
+/* ////////////// */
+
+.form_input{
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.form_btn_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    padding:18px 20px;
+    /* margin: 0 40px; */
+}
+.inputModal {
+    width: 580px !important;
+  height: 45px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+      display: block;
+      margin-top: 25px;
+
+}
+.inputModal:focus{
+   border:3px solid black;;
+   outline: none;
+      
+
+}
+.labelModal{
+    padding-bottom: 15px;
+    font-size: 1.40em;
+    color: black;;
+    padding-right: 30px;
+    font-size: 25px;
+
+}
+.titleModal {
+    font-size: 25px;
+    /* font-weight: bold; */
+        
+    color: black;;
+    padding: 10px 40px;
+    border-bottom: 2px solid black;
+
+}
+.discModal {
+    height: 40px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_btn{
+    transition: all .6s;
+    padding: 13px 25px;
+    font-size: 22px;
+    cursor: pointer;
+    background-color:black;
+    color: #FDFEFC;
+    border: none;
+    outline: none;
+    margin: 0 30px;
+}
+.form_btn:hover{
+    transition: all .6s;
+   
+    background-color: #F89334;
+    color: #FDFEFC;
+ 
+}
+
+
+/* /////////// */
+.content {
+    top: 60%;
+    left: 50%;
+    width: 40%;
+    height: 77vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+
+    box-shadow: 1px 1px 8px black;
+overflow-x: hidden;}
+
+.discModal {
+    height: 70px;
+}
+
+.closeModal {
+    position: absolute;
+    right: 3%;
+    top: 10px;
+    height: 2em !important;
+    color: black;
+}
+
+
+
+
+.forms{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.forms .uploads{
+    width: 50%;
+    order: 1;
+}
+.form-group.multi-preview{
+    width:"100%";
+    display:'flex';
+}
+.boat__images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.boat__images .boat__image{
+    width: 30%;
+}
+.boat__images .boat__image img{
+    width: 100%;
+}
+.cover_uploads{
+    display: flex;
+    /* width: 47%; */
+}
+
+small{
+    display: block;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+  

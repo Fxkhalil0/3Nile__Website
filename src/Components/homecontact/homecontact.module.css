@@ -1,0 +1,64 @@
+
+.home_contact_us {
+    background-image: url(./San-Diego-Sunrise.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    
+}
+
+.home_contact_us .container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.home_contact_us_bk {
+    position: absolute;
+    background-color: rgba(3, 26, 77, 0.747);
+    top: 70px;
+    left: 395px;
+    width: 60%;
+    height: 255px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.home_contact_us_content {
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    left: 663px;
+}
+
+.home_contact_us_content h2{
+    width: 60%;
+    font-size: 40px;
+    /* position: absolute; */
+    color: #fdfdfd;
+}
+
+.home_contact_us .go_to_contact_us_btn{
+    position: absolute;
+    left: 902px;
+    top: 250px;
+}
+
+.home_contact_us .go_to_contact_us_btn .go_to_contact_us:hover{
+  background-color: #ffffff;
+  color: #033c57;
+  transition: all .6s;
+}
+
+.home_contact_us .go_to_contact_us_btn .go_to_contact_us{
+    padding: 15px 25px;
+
+    font-weight: bold;
+    border: none;
+    background-color: #0452a5;
+    cursor: pointer;
+    transition: all .6s;
+    color: white;
+    font-size: 20px;
+}

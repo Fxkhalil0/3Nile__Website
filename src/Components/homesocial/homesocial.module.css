@@ -1,0 +1,31 @@
+/* social media*/
+.social_section {
+  background-color: #FFFFFF;
+  padding: 60px 0;
+  width: 100%;
+}
+.container{
+  margin: 0 auto;
+}
+.social_section__icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+.social_section_one {
+  width: 150px;
+  display: flex;
+  font-size: 25px;
+}
+
+.fa-facebook:hover {
+  color: #437EF7;
+}
+.fa-twitter:hover {
+  color: blue;
+}
+.fa-dribbble:hover {
+  color: rgb(226, 155, 155);
+}
+.fa-instagram:hover {
+  color: crimson;
+}

@@ -1,0 +1,88 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.container {
+    width: 75%;
+}
+.activeLink {
+    position: relative;
+    transition: all .6s;
+  }
+  
+  .activeLink::after {
+  
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #3f93ec;
+    margin-top: 10px;
+    transition: all .6s;
+  
+  
+  }
+.user-trips{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+
+}
+.user-trips .trips-nav{
+    background-color: white;
+}
+.user-trips .trips-nav .trips-nav-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.user-trips .trips-nav .trips-nav-buttons .previous-trips{
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-right: 0.8rem;
+}
+.user-trips .trips-nav .trips-nav-buttons .previous-trips button ,
+.requests-trips button ,
+.favourite-trips button{
+    border-radius: 1.6rem;
+    font-size: 1.6rem;
+    min-height: 3rem;
+    padding: 0.5rem 0.9rem;    font-family: inherit;
+    font-weight: 400;
+   border: none;
+    color:  #a0a5aa;
+    cursor: pointer;
+    transition: all .6s;
+    padding-top: 12px;
+    background: white;
+}
+.user-trips .trips-nav .trips-nav-buttons .previous-trips button:hover ,
+.requests-trips button:hover ,
+.favourite-trips button:hover{
+    color:  #018ABE;
+}
+
+/* User trips cards */
+.user-trips .container .user-trips-cards {
+    background-color: white;
+}
+
+.user-trips .container .user-trips-cards .cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+    /* padding-left: 80px; */
+    padding-top: 30px;
+}
+

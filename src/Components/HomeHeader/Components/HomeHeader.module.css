@@ -1,0 +1,66 @@
+.container {
+  
+    width: 100%;
+    
+    animation: clipFromTop 1s;
+    z-index: 999;
+  }
+.container2 {
+  
+    width: 100%;
+      
+    z-index: 999;
+  }
+  .maps{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-300px);
+    z-index: -1;
+    overflow: hidden;
+  }
+  .image{
+    padding-top: 80px;
+    object-fit: cover;
+  }
+  .image2{
+    padding-top: 80px;
+    transform: scalex(-1) !important;
+    object-fit: cover;
+
+  }
+  @keyframes clipFromTop {
+    0% {
+
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    100% {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+  }
+
+
+
+  .video2{
+    height: 65vh;
+    object-fit: cover;
+    width: 100%;
+    clip-path: ellipse(160% 160% at 50% 160%);
+
+    }
+    .video{
+      height: 100vh;
+      object-fit: cover;
+      width: 100%;
+      animation: clip 1s ease-in-out 5.5s forwards;
+  
+  
+      }
+    @keyframes clip {
+      0% {
+      }
+      100% {
+        clip-path: ellipse(160% 160% at 50% 160%);
+      }
+    }

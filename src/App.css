@@ -1,0 +1,169 @@
+ لو سمحت لا تقترب من هذه الكلاسات وحياة أبوك يا شيخ
+/* - كيرلس خيري */
+body{
+  font-family: 'Exo 2', sans-serif !important;
+}
+.dydPIA {
+  margin:0 !important;
+}
+.kvrXoZ {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  position: absolute;
+  top: 629px;
+  display: none;
+}
+.vUlQj{
+  background-color:#0452a5 !important;
+  box-shadow: #0452a5 0px 0px 1px 3px !important;
+}
+.iWchow{
+  color: #ffffff !important;
+  /* background-color:#0452a5 !important; */
+  font-size: 40px;
+  color: #ffffff !important;
+  background-color: #0452a5 !important;
+}
+
+.kk1bwy:hover{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #0452a5 !important;
+    color: #F89334;
+    border:1px solid #0452a5 ;
+  
+}
+
+.rec-arrow-right{
+  position: absolute;
+  left: 776px;
+   font-size: 2.6em;
+  z-index: 0;
+}
+.control-dots{
+  display: none;
+}
+/* .carousel-slider{
+  margin-left: 40px !important;
+} */
+.carousel .slider-wrapper.axis-horizontal .slider{
+  margin-left: 60px;
+
+}
+.rec-arrow-right:hover {
+  color: #ffffff;
+  background-color: #0452a5;
+}
+.rec-arrow-left{
+  position: absolute;
+  left:20px;
+  font-size: 2.6em;
+  z-index: 10;
+}
+
+.css-1cle4e{
+  width: 10%;
+  margin-left: 75%;
+  margin-top: 88px;
+  background-color: white;
+  border-radius: 20px;
+}
+/*  لو سمحت لا تقترب من هذه الكلاسات وحياة أبوك يا شيخ*/
+/* - كيرلس خيري */
+
+.MuiInputBase-input ,.MuiOutlinedInput-input ,.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  height: 5px !important;
+  }
+
+  .cover_form_btn__3y94n {
+    width: 50px !important;
+    padding: 5px 10px !important;
+    display: inline;
+    right: 50px !important;
+    top: 10px !important;
+  }
+
+  .ReactModal__Content, .ReactModal__Content, .cover_content__qPN9s{
+    /* height: 233px !important; */
+    top: 55% !important;
+    padding: 0 20px !important;
+    z-index: 9999;
+}
+
+.cover_forms__D1lz0 .cover_uploads__dPGFw {
+  width: 47% !important;
+  order: 1 !important;
+
+}
+.css-1yajq7x{
+  background: white;
+  position: absolute;
+  left: 74%;
+  width: 250px;
+  top: 120px;
+  border-radius: 6px;
+}
+.p-button{
+  background: #050AE1;
+}
+/* .css-1gdxz7k{
+  background: white;
+    position: absolute;
+    left: 74%;
+    width: 250px;
+    top: 120px;
+    border-radius: 6px;
+  } */
+
+.css-eg0mwd-MuiSlider-thumb {
+  color: #0452a5 !important;
+  transition: all .6s;
+}
+
+.css-eg0mwd-MuiSlider-thumb:hover {
+  color: #F89334 !important;
+  transition: all .6s;
+}
+
+.css-1gv0vcd-MuiSlider-track {
+  color: #0452a5 !important;
+}
+.gyiQIv{
+  width: 100%;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  height: 40px !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background-color: #0452a559 !important;
+  color: #ffffff;
+  transition: all .4s;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: #ffffff !important;
+  margin-bottom: 0 !important;
+  padding: 20px 125px 20px 0 !important;
+  width: 300px !important;
+  color: rgb(137, 137, 137);
+
+}
+.css-ju6g5a-MuiFormControl-root-MuiTextField-root{
+  width: 100%;
+  height: 5px;
+}
+
+.css-ju6g5a-MuiFormControl-root-MuiTextField-root{
+  margin-top:12px !important ;
+  padding: 20px;
+
+}
+.css-isq0dc-MuiStack-root{
+
+  margin: 10px 20px;
+}
+

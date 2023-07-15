@@ -1,0 +1,21 @@
+/* .container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 75%;
+   
+  } */
+  
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    /* width: 600px; */
+    height: 400px;
+    /* background-color: rgb(245, 245, 245); */
+    position: absolute;
+    left: 33%;
+    top:40%;
+}
